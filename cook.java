@@ -1,5 +1,6 @@
 import java.util.*;
 	import java.io.*;
+import java.math.*;
 	
 	//class retaled to functions with Items Inputed 
 	class items_class 
@@ -133,7 +134,7 @@ import java.util.*;
 	int b=0;
 	if(arr[0]!=0)
 	{
-	System.out.println(")-: Check these first and Proceed!!!As they are ALMOST ROTTEN :-(");
+	System.out.println(")-: Check these first and then Proceed!!!As they are ALMOST ROTTEN :-(");
 	for(i1=0;i1<20;i1++)
 	{    
 	if(which[i1]==1)
@@ -157,7 +158,7 @@ import java.util.*;
 	}
 	if(arr[1]!=0)
 	{
-	System.out.println("|-: CONSIDER ME !st :-|");
+	System.out.println("|-: CONSIDER ME 1st :-|");
 	for(i1=0;i1<20;i1++)
 	{    
 	if(which[i1]==1)
@@ -243,7 +244,7 @@ import java.util.*;
 	return r2-r1;
 	else
 	{
-	System.out.println("You Are Living in a Parallel Universe with Time Moving Backwards : > \n Enter correct sequence of Dates");
+	System.out.println("You Are Living in a Parallel Universe with Time Moving Backwards. Are You? : > \n Enter correct sequence of Dates");
 	return -1;
 	}
 	}
